@@ -13,6 +13,7 @@ const directions = {
 	&"up": Vector2(0, -1)
 }
 
+
 func _process(_delta: float) -> void:
 	for d in directions:
 		if Input.is_action_just_pressed(d):
